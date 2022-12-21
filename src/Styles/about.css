@@ -7,6 +7,10 @@
     color: white;
 }
 
+.container {
+    overflow-x: hidden;
+}
+
 .about >* {
     text-align: left;
 }
@@ -20,4 +24,17 @@
     .about {
         margin: auto;
     }
+}
+
+.ellipse2 {
+/* Ellipse 2 */
+position: absolute;
+width: 500px;
+height: 500px;
+right: 0;
+top: 579px;
+
+background: rgba(255, 255, 255, 0.13);
+filter: blur(100px);
+overflow: hidden;
 }

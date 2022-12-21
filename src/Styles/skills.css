@@ -30,3 +30,17 @@
 .skills h2 {
     margin-bottom: 1em;
 }
+
+.ellipse3 {
+/* Ellipse 3 */
+
+position: absolute;
+width: 500px;
+height: 500px;
+left: calc(50% - 500px/2 - 862px);
+top: 1151px;
+
+background: rgba(255, 255, 255, 0.13);
+filter: blur(100px);
+
+}

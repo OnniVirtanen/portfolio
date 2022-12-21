@@ -4,6 +4,7 @@ const Conctact = () => {
 
     return (
         <div className='container'>
+            <div className="ellipse4"></div>
             <div className='contact'>
                 <h2 id="contact">Contact me</h2>
                 <div className='contact-me-flex-container'>

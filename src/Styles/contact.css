@@ -72,3 +72,17 @@ input[value=Submit] {
         width: 525px
     }
 }
+
+.ellipse4 {
+    /* Ellipse 4 */
+
+position: absolute;
+width: 500px;
+height: 500px;
+left: -300px;
+top: 2600px;
+
+background: rgba(255, 255, 255, 0.13);
+filter: blur(100px);
+
+}

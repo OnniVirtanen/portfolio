@@ -3,6 +3,7 @@ import "../Styles/skills.css";
 const Skills = () => {
     return (
         <div className='container'>
+            <div className="ellipse3"></div>
             <div className='skills'>
                 <h2 id="skills">Skills</h2>
                 <div className='skills-flex-container'>

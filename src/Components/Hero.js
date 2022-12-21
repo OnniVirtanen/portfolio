@@ -5,6 +5,7 @@ import image from "../Images/onnin_kuva_new.png";
 const Hero = () => {
     return (    
     <div className='hero'>
+        <div className="ellipse"></div>
         <div className='container'>
             <div className='hero-text'>
                 <h1>Onni Virtanen</h1>

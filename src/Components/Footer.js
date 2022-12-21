@@ -8,8 +8,8 @@ const Footer = () => {
             <div className='container'>
                 <h2>Onni.</h2>
                 <div className='copyright'>© Onni Virtanen</div>
-                <img className="github-logo" src={github_logo} alt="github-logo" />
-                <img src={linkedin_logo} alt="linkedin-logo"/>
+                <a href="https://www.linkedin.com/in/onni-virtanen-63566b254/"><img className="github-logo" src={github_logo} alt="github-logo" /></a>
+                <a href="https://github.com/OnniVirtanen"><img src={linkedin_logo} alt="linkedin-logo"/></a>
             </div>
         </div>    
     )

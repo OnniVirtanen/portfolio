@@ -9,6 +9,7 @@
 .image-of-onni {
     max-height: 367px;
     max-width: 343px;
+    border-radius: 2px;
 }
 
 .hero-text {
@@ -68,4 +69,16 @@
     .hero .container {
         align-items: center;
     }
+}
+
+.ellipse {
+/* Ellipse 1 */
+position: absolute;
+width: 500px;
+height: 500px;
+left: -400px;
+top: 179px;
+
+background: rgba(255, 255, 255, 0.13);
+filter: blur(100px);
 }

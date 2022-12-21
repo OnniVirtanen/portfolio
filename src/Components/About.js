@@ -4,6 +4,7 @@ import "../Styles/container.css";
 const About = () => {
     return (
         <div className='container'>
+            <div className="ellipse2"></div>
             <div className='about'>
                 <h2 id="about">About</h2>
                 <p>
