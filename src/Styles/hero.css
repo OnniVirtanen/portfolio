@@ -1,0 +1,71 @@
+.hero .container {
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    margin: 9em auto 5em;
+}
+
+.image-of-onni {
+    max-height: 367px;
+    max-width: 343px;
+}
+
+.hero-text {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25em;
+    justify-content: center;
+}
+
+.hero-text h1, .hero-text p {
+    text-align: left;
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 2.25em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.hero-text p {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5em;
+}
+
+.hero-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4C7292;
+    max-width: 165px;
+    height: 57px;
+    border-radius: 2px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+
+@media (max-width: 60em) {
+    .hero .container {
+        flex-direction: column-reverse;
+        margin: 8em auto 2em;
+        align-items: flex-start;
+        width: max-content;
+        gap: 3em;
+    }
+    .image-of-onni {
+        height: auto;
+        width: 270px;
+    }
+}
+
+@media (max-width: 450px) {
+    .hero .container {
+        align-items: center;
+    }
+}

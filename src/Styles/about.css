@@ -1,0 +1,23 @@
+.about {
+    min-height: max-content;
+    max-width: 75ch;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25em;
+    color: white;
+}
+
+.about >* {
+    text-align: left;
+}
+
+.about p {
+    font-size: 1.125em;
+    font-family: 'Outfit', sans-serif;
+}
+
+@media (max-width: 60em) {
+    .about {
+        margin: auto;
+    }
+}

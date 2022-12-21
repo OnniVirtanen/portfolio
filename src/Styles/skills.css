@@ -1,0 +1,32 @@
+.skills-flex-container {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill-container {
+    background: #4C7292;
+    color: white;
+    width: 255px;
+    height: 239px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2em 1em;
+    gap: 1em;
+    border-radius: 2px;
+}
+
+.skills p {
+    font-size: 1em;
+    color: white;
+    font-weight: 600;
+    font-family: 'Outfit', sans-serif;
+    text-align: left;
+  }
+
+.skills h2 {
+    margin-bottom: 1em;
+}

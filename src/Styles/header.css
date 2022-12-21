@@ -1,0 +1,93 @@
+.header {
+    min-height: 4em;
+    width: 100%;
+    background-color: rgba(76, 114, 146, 0.95);
+    display: flex;
+    font-weight: 600;
+    position: fixed;
+    top: 0;
+}
+
+.header .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90em;
+    margin: auto;
+    max-width: calc(100% - 20px);
+    padding: 10px;
+}
+
+.header h2, .header a {
+    color: #ffffff;
+    font-family: 'Outfit', sans-serif;
+}
+
+.header h2 {
+    font-size: 2em;
+    width: max-content;
+    font-weight: 600;
+}
+
+.header ul {
+    font-size: 1.25em;
+    list-style: none;
+    display: flex;
+    gap: 3em;
+    padding: 0;
+    margin: 0;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.menu-icon {
+    color: white;
+    display: none;
+}
+
+.menu-icon ul {
+    position: absolute;
+    top: 2em;
+    color: red;
+    border: 3px solid red;
+}
+
+@media (max-width: 45em) {
+    .header .big-screen-menu {
+        display: none;
+    }
+    .menu-icon {
+        display: flex;
+    }
+    .header .small-screen-menu{
+        display: flex;
+        position: absolute;
+        width: 100%;
+        top: 3.2em;
+        left: 0;
+        right: 0;
+        padding: 1.5em;
+        margin: 0;
+        background: rgba(1, 48, 87, 0.97);
+        flex-direction: column;
+        color: red;
+    }
+}
+
+@media (min-width: 45em) {
+    .header .small-screen-menu {
+        display: none;
+        color: red;
+    }
+}
+
+.menu-icon button {
+    all: unset;
+    cursor: pointer;
+}
+
+.header a:hover {
+    color: #43ff72;
+}

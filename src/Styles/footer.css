@@ -1,0 +1,32 @@
+.footer {
+    margin-top: auto;
+    background: black;
+}
+
+.footer .container {
+    min-height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer .github-logo {
+    height: 38px;
+}
+
+.footer img:last-child {
+    height: 30px;
+}
+
+.footer .copyright {
+    color: white;
+    font-size: 1em;
+    font-family: 'Outfit', sans-serif;
+}
+
+.footer h2 {
+    font-size: 2em;
+    width: max-content;
+    font-weight: 600;
+}

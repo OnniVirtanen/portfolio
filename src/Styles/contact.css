@@ -1,0 +1,74 @@
+.contact-me-flex-container {
+    max-width: 525px;
+    margin: auto auto 5em;
+}
+
+.contact-me-flex-container form {
+    flex-direction: column;
+    display: flex;
+    gap: 1em;
+}
+
+.contact-me-flex-container input {
+    background: #4C7292;
+    color: white;
+    border-radius: 2px;
+    font-size: 1em;
+    font-family: 'Outfit', sans-serif;
+    border: none;
+    padding: 1em;
+    display: flex;
+    text-align: left;
+}
+
+::placeholder {
+    opacity: 0.9;
+    color: white;
+}
+
+.form-name-and-company {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 1em;
+}
+
+.form-name-and-company input {
+    width: 255px
+}
+
+input[type=text], input[type=email] {
+    height: 52px;
+}
+
+input[type=message] {
+    height: 150px;
+}
+
+input[type=submit] {
+    width: 165px;
+    height: 52px;
+    font-size: 1.5em;
+    cursor: pointer;
+    justify-content: center;
+    text-align: center;
+}
+
+input[value=Submit] {
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.625em;
+    align-self: flex-end;
+}
+
+.contact h2 {
+    margin-bottom: 1em;
+}
+
+@media (max-width: 548px) {
+    .form-name-and-company input {
+        width: 525px
+    }
+}

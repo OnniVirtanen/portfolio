@@ -1,0 +1,54 @@
+.projects-flex-container {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects-flex-item {
+    background: #4C7292;
+    width: clamp(300px,525px,525px);
+    min-height: 239px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: space-between;
+    border-radius: 2px;
+}
+
+.projects h2 {
+    margin-bottom: 1em;
+}
+
+.projects h3, .projects p {
+    color: white;
+    text-align: left;
+}
+
+.projects p {
+    font-size: 1em;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: 'Outfit', sans-serif;
+}
+
+.git-image {
+    height: 24px;
+}
+
+.projects-flex-item-header-and-git {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tech-used ul{
+    font-size: 0.75em;
+    list-style: none;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.774);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    gap: 1em;
+    justify-content: flex-start;
+}
