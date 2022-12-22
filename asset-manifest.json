@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/ov-react/static/css/main.0ee1a5b4.css",
-    "main.js": "/ov-react/static/js/main.a1e8dc73.js",
+    "main.js": "/ov-react/static/js/main.2c597a2b.js",
     "static/media/onnin_kuva_new.png": "/ov-react/static/media/onnin_kuva_new.79d23ba8a0ddbbe9bda9.png",
     "static/media/GitHub_Logo_White.png": "/ov-react/static/media/GitHub_Logo_White.6149aa5ccbc036755594.png",
     "static/media/LI-Logo.png": "/ov-react/static/media/LI-Logo.a95afc06831647f5fca2.png",
     "static/media/github-mark-white.svg": "/ov-react/static/media/github-mark-white.97ed8e7eef60d61ca469881dd6f34511.svg",
     "index.html": "/ov-react/index.html",
     "main.0ee1a5b4.css.map": "/ov-react/static/css/main.0ee1a5b4.css.map",
-    "main.a1e8dc73.js.map": "/ov-react/static/js/main.a1e8dc73.js.map"
+    "main.2c597a2b.js.map": "/ov-react/static/js/main.2c597a2b.js.map"
   },
   "entrypoints": [
     "static/css/main.0ee1a5b4.css",
-    "static/js/main.a1e8dc73.js"
+    "static/js/main.2c597a2b.js"
   ]
 }
