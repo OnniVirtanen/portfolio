@@ -1,12 +1,13 @@
 import "../Styles/about.css";
 import "../Styles/container.css";
+import 'animate.css';
 
 const About = () => {
     return (
         <div className='container'>
             <div className="ellipse2"></div>
             <div className='about'>
-                <h2 id="about">About</h2>
+                <h2 class="animate__animated animate__fadeIn" id="about">About</h2>
                 <p>
                     I am currently studying a Bachelor's degree of ICT in Finland.
                     I believe that my ability to think critically and solve problems 

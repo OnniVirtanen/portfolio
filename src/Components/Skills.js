@@ -5,7 +5,7 @@ const Skills = () => {
         <div className='container'>
             <div className="ellipse3"></div>
             <div className='skills'>
-                <h2 id="skills">Skills</h2>
+                <h2 class="animate__animated animate__fadeIn" id="skills">Skills</h2>
                 <div className='skills-flex-container'>
                     <div className='skill-container'>
                         <h3>JavaScript</h3>
@@ -16,7 +16,7 @@ const Skills = () => {
                     <div className='skill-container'>
                         <h3>Full Stack</h3>
                         <p>
-                        I am in the process of learning Full Stack development and building my skills and experience in this field.
+                        I am in the process of learning Full Stack development and building my skills and experience in this field. I am currently learning Node.js and Express.
                         </p>
                     </div>
                     <div className='skill-container'>
@@ -40,19 +40,19 @@ const Skills = () => {
                     <div className='skill-container'>
                         <h3>APIs</h3>
                         <p>
-                        I have experience working with APIs, including a program that fetches data from an electricity price API and sorts the cheapest hours of the day.
+                        I am familiar with the principles of API development and have successfully implemented them in my work. I have experience on Node.js and Express.
                         </p>
                     </div>
                     <div className='skill-container'>
                         <h3>HTML & CSS</h3>
                         <p>
-                        I have a strong background in HTML and CSS, with experience designing and building web pages using these technologies.
+                        I have a strong background in HTML and CSS, with experience designing and building web pages with these languages.
                         </p>
                     </div>
                     <div className='skill-container'>
                         <h3>Other</h3>
                         <p>
-                        Familiar with Java and experienced with Figma design software.
+                        I have some past experience with Java, but it has been a few years since I last worked with the language. I have experience using Figma and Adobe XD for designing web layouts.
                         </p>
                     </div>
                 </div>

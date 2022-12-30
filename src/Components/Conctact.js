@@ -1,7 +1,6 @@
 import "../Styles/contact.css";
 import emailjs from '@emailjs/browser';
 import React, { useRef } from 'react';
-import { useForm } from "react-hook-form";
 
 const Conctact = () => {
     const form = useRef();
@@ -26,7 +25,7 @@ const Conctact = () => {
         <div className='container'>
             <div className="ellipse4"></div>
             <div className='contact'>
-                <h2 id="contact">Contact me</h2>
+                <h2 class="animate__animated animate__fadeIn" id="contact">Contact me</h2>
                 <div className='contact-me-flex-container'>
                     <form ref={form} onSubmit={sendEmail}>
                         <div className='form-name-and-company'>

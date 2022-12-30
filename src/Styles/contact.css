@@ -10,21 +10,22 @@
 }
 
 .contact-me-flex-container input {
-    background: #4C7292;
+    background: #4E7493;
     color: white;
-    border-radius: 2px;
+    border-radius: 3px;
     font-size: 1em;
     font-family: 'Outfit', sans-serif;
     border: none;
     padding: 1em;
     display: flex;
     text-align: left;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 ::placeholder {
     opacity: 0.9;
     color: white;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .form-name-and-company {

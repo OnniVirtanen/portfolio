@@ -18,7 +18,7 @@
 .about p {
     font-size: 1.125em;
     font-family: 'Outfit', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 @media (max-width: 60em) {
@@ -35,7 +35,7 @@ height: 500px;
 right: 0;
 top: 579px;
 
-background: rgba(255, 255, 255, 0.13);
+background: #ffffff2a;
 filter: blur(100px);
 overflow: hidden;
 }

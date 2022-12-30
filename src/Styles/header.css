@@ -1,26 +1,27 @@
 .header {
     min-height: 4em;
     width: 100%;
-    background-color: rgba(76, 114, 146, 0.95);
+    background-color: #4E7493;
     display: flex;
     font-weight: 600;
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 2;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 .header .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90em;
+    width: 80em;
     margin: auto;
     max-width: calc(100% - 20px);
     padding: 10px;
 }
 
 .header h2, .header a {
-    color: #ffffff;
+    color: white;
     font-family: 'Outfit', sans-serif;
 }
 
@@ -71,9 +72,8 @@
         right: 0;
         padding: 1.5em;
         margin: 0;
-        background: rgba(1, 48, 87, 0.97);
+        background: #4e7493f6;
         flex-direction: column;
-        color: red;
     }
 }
 
@@ -90,5 +90,6 @@
 }
 
 .header a:hover {
-    color: #43ff72;
+    color: rgb(61, 154, 254);
+    cursor: pointer;
 }

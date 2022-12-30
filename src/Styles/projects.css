@@ -6,7 +6,7 @@
 }
 
 .projects-flex-item {
-    background: #4C7292;
+    background: #4E7493;
     width: clamp(300px,525px,525px);
     min-height: 239px;
     padding: 1em;
@@ -14,7 +14,12 @@
     flex-direction: column;
     gap: 1em;
     justify-content: space-between;
-    border-radius: 2px;
+    border-radius: 3px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.projects-flex-item:hover {
+    background: #6a96ba;
 }
 
 .projects h2 {
@@ -22,14 +27,14 @@
 }
 
 .projects h3, .projects p {
-    color: #43ff72;
+    color: white;
     text-align: left;
 }
 
 .projects p {
     font-size: 1em;
-    font-weight: 300;
-    color: #ffffff;
+    font-weight: 400;
+    color: white;
     font-family: 'Outfit', sans-serif;
 }
 
