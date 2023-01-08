@@ -10,25 +10,25 @@ const Skills = () => {
                     <div className='skill-container'>
                         <h3>JavaScript</h3>
                         <p>
-                        I have a strong foundation in JavaScript and am proficient in using the React library to build basic web applications.
+                        I have a strong foundation in JavaScript and am competent in using the React library to build basic web applications.
                         </p>
                     </div>
                     <div className='skill-container'>
                         <h3>Full Stack</h3>
                         <p>
-                        I am in the process of learning Full Stack development and building my skills and experience in this field. I am currently learning Node.js and Express.
+                        I am in the process of learning Full Stack development and building my skills and experience in this field. I am currently learning Node.js and Express. I have chosen to learn MongoDB.
                         </p>
                     </div>
                     <div className='skill-container'>
                         <h3>Python</h3>
                         <p>
-                        I am proficient in Python and have extensive experience using its cryptographic libraries.
+                        I am competent in Python and have some experience using its cryptographic libraries.
                         </p>
                     </div>
                     <div className='skill-container'>
                         <h3>C</h3>
                         <p>
-                        I have a foundation in C programming and am familiar with the basic concepts and syntax.
+                        I am familiar with the syntax and some concepts of C programming.
                         </p>
                     </div>
                     <div className='skill-container'>
@@ -40,7 +40,7 @@ const Skills = () => {
                     <div className='skill-container'>
                         <h3>APIs</h3>
                         <p>
-                        I am familiar with the principles of API development and have successfully implemented them in my work. I have experience on Node.js and Express.
+                        I am familiar with the principles of API development and have successfully implemented them in my work. I have used Get, Post, Put and Delete methods.
                         </p>
                     </div>
                     <div className='skill-container'>
@@ -50,9 +50,27 @@ const Skills = () => {
                         </p>
                     </div>
                     <div className='skill-container'>
-                        <h3>Other</h3>
+                        <h3>Arduino</h3>
                         <p>
-                        I have some past experience with Java, but it has been a few years since I last worked with the language. I have experience using Figma and Adobe XD for designing web layouts.
+                        I have a interest in electronics and microcontrollers, and I enjoy using Arduino boards in my free time to build and experiment with different projects.
+                        </p>
+                    </div>
+                    <div className='skill-container'>
+                        <h3>Java</h3>
+                        <p>
+                        I am familiar with the syntax and basic fundamentals of the language. The first programming language I learnt was Java in high school.
+                        </p>
+                    </div>
+                    <div className='skill-container'>
+                        <h3>Security</h3>
+                        <p>
+                        I have knowledge on securing user data by hashing and using salt with bcrypt in Node.js.
+                        </p>
+                    </div>
+                    <div className='skill-container'>
+                        <h3>Figma</h3>
+                        <p>
+                        I have experience using Figma for designing web layouts.
                         </p>
                     </div>
                 </div>
